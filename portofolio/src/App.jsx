@@ -31,7 +31,7 @@ function App() {
         </div>
 
         {/* Right Side - Scrollable */}
-        <div className="w-1/2 ml-[40%] p-20">
+        <div className="w-1/2 ml-[45%] p-20">
           <div className='mb-20'>
             <p className='mb-6 text-balance'>{description.desc}</p>
             <p className='mb-6 text-balance'>{description.desc2}</p>
