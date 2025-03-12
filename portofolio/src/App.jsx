@@ -9,7 +9,7 @@ function App() {
     <>
       <div className="bg-slate-800 text-white font-mono min-h-screen flex">
         {/* Left Side - Fixed */}
-        <div className="fixed w-1/2 h-screen py-20 pl-50 flex flex-col justify-between">
+        <div className="fixed w-1/2 h-screen py-20 pl-70 flex flex-col justify-between">
           <div>
             <h2 className='text-4xl font-bold mb-3'>Christopher Edmund Haryanto</h2>
             <p className='text-2xl font-semibold mb-5'>Developer</p>
