@@ -9,7 +9,7 @@ function App() {
     <>
       <div className="bg-slate-800 text-white font-mono min-h-screen flex">
         {/* Left Side - Fixed */}
-        <div className="fixed w-1/2 h-screen py-20 pl-100 flex flex-col justify-between">
+        <div className="fixed w-1/2 h-screen p-20 flex flex-col justify-between">
           <div>
             <h2 className='text-4xl font-bold mb-3'>Christopher Edmund Haryanto</h2>
             <p className='text-2xl font-semibold mb-5'>Developer</p>
@@ -32,7 +32,7 @@ function App() {
 
         {/* Right Side - Scrollable */}
         <div className="w-1/2 ml-[50%] p-20">
-          <div className='mb-20 w-[95%]'>
+          <div className='mb-20'>
             <p className='mb-6 text-balance'>{description.desc}</p>
             <p className='mb-6 text-balance'>{description.desc2}</p>
             <p className='mb-6 text-balance'>{description.desc3}</p>
